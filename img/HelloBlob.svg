@@ -1,0 +1,6 @@
+<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="377.272" height="346.226" viewBox="0 0 377.272 346.226">
+  <path id="blob-2" d="M303.248,60.457c18.248,70.5-25.713,147.088-83.5,184.136-58.061,37.048-129.393,34.56-190.772-4.7S-83.825,124.877-66.407,55.481c17.418-69.12,103.68-131.6,186.9-130.776C203.991-74.465,285-10.045,303.248,60.457Z" transform="translate(69.843 75.303)" fill="#1c74fc"/>
+  <text id="Hello_I_am" data-name="Hello, I am" transform="translate(121.817 133)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Hello, I am</tspan></text>
+  <text id="Berend" transform="translate(116.817 196)" fill="#fff" font-size="70" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Berend</tspan></text>
+  <text id="_" data-name="👋🏽" transform="translate(18.817 182)" fill="#fff" font-size="70" font-family="AppleColorEmoji, Apple Color Emoji"><tspan x="0" y="0">👋🏽</tspan></text>
+</svg>
