@@ -5,8 +5,9 @@
   --color-alpha: #1c74fc;
   --color-dark: #121212;
   --color-dark-x: #242121;
-  --color-light: #f4f4f4;
-  --color-light-x: #ffffff;
+  --color-light: #ffffff;
+  --color-light-x: #f4f4f4;
+  --text-color: #ffffff;
 }
 
 /*------------------------------------*\
@@ -57,7 +58,7 @@ html {
   font-size: 18px;
   line-height: 24px;
   font-family: 'Roboto', Helvetica, arial, sans-serif;
-  color: var(--color-light-x);
+  color: var(--text-color);
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1022,8 +1023,7 @@ a:focus {
   :root {
     --color-dark: var(--color-light);
     --color-dark-x: var(--color-light-x);
-    --color-light: var(--color-dark);
-    --color-light-x: var(--color-dark-x);
+    --text-color: #121212;
   }
 }
 
