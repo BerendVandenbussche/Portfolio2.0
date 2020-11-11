@@ -15,11 +15,14 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/screen.css">
+
+    <script src="app.js"></script>
 </head>
 <body>
-    <div class="c-dark-x">
+    <div class="c-dark-x" id="main">
         <a name="Home"></a>
-    <nav class="c-navigation u-mb-xl">
+    <nav>
+        <div class="c-navigation u-mb-xl">
         <div class="c-navigation__logo"><p>BV.</p></div>
         <div class="c-navigation__desktop">
             <ul>
@@ -29,7 +32,14 @@
         <li class="o-nav-item"><a href="#Contact" class=o-nav-item__link>Contact</a></li>
     </ul>
 </div>
-        <div class="c-navigation__list"><img src="img/Menu.svg" alt="Mobile menu"></div>
+        <div class="c-navigation__list js-mobile-menu"><img src="img/Menu.svg" alt="Mobile menu"></div>
+        </div>
+        <div class="c-mobile-menu" id="mobile-menu">
+    <a href="#Home" class=o-nav-item__link><div class="o-mobile-menu-item">Home</div></a>
+    <a href="#About" class=o-nav-item__link><div class="o-mobile-menu-item">About</div></a>
+    <a href="#Skills" class=o-nav-item__link><div class="o-mobile-menu-item">Skills</div></a>
+    <a href="#Contact" class=o-nav-item__link><div class="o-mobile-menu-item">Contact</div></a>
+        </div>
     </nav>
     <main class="o-container-main">
         <img src="img/MeBlob.png" alt="Berend Vandenbussche" class="c-main-blob">
@@ -57,7 +67,7 @@
             Now i’m in my last year 
             Media and Communication Technologies, 
             where I chose the specialisation 
-            Web & App developer. Here we learn 
+            Web & App development. Here we learn 
             to be a full stack developer. 
             But my personal preference is frontend.</p>
     </div>
@@ -76,12 +86,12 @@
     <div class="o-container">
         <a name="Skills"><h3 class="o-item-title u-pt-md">Skills & Projects</h3></a>
         <div class="c-skillslider">
-            <div class="c-skillslider__skill"><div class="o-skill__content"><img class="o-skill-image" src="img/javascript.svg" alt="Javascript logo"><p class="o-skill-percentage">70%</p></div></div>
-            <div class="c-skillslider__skill"><div class="o-skill__content"><img class="o-skill-image" src="img/react-2.svg" alt="React js logo"><p class="o-skill-percentage">65%</p></div></div>
-            <div class="c-skillslider__skill"><div class="o-skill__content"><img class="o-skill-image" src="img/vue-js-1.svg" alt="Vue js logo"><p class="o-skill-percentage">55%</p></div></div>
-            <div class="c-skillslider__skill"><div class="o-skill__content"><img class="o-skill-image" src="img/python-5.svg" alt="Python logo"><p class="o-skill-percentage">65%</p></div></div>
-            <div class="c-skillslider__skill"><div class="o-skill__content"><img class="o-skill-image" src="img/c--4.svg" alt="C# logo"><p class="o-skill-percentage">55%</p></div></div>
-            <div class="c-skillslider__skill"><div class="o-skill__content"><img class="o-skill-image" src="img/mysql.svg" alt="MySQL logo"><p class="o-skill-percentage">65%</p></div></div>
+            <div class="c-skillslider__skill" title="Javascript"><div class="o-skill__content"><img class="o-skill-image" src="img/javascript.svg" alt="Javascript logo"><p class="o-skill-percentage">70%</p></div></div>
+            <div class="c-skillslider__skill" title="React"><div class="o-skill__content"><img class="o-skill-image" src="img/react-2.svg" alt="React js logo"><p class="o-skill-percentage">65%</p></div></div>
+            <div class="c-skillslider__skill" title="Vue"><div class="o-skill__content"><img class="o-skill-image" src="img/vue-js-1.svg" alt="Vue js logo"><p class="o-skill-percentage">55%</p></div></div>
+            <div class="c-skillslider__skill" title="Python"><div class="o-skill__content"><img class="o-skill-image" src="img/python-5.svg" alt="Python logo"><p class="o-skill-percentage">65%</p></div></div>
+            <div class="c-skillslider__skill" title="C#"><div class="o-skill__content"><img class="o-skill-image" src="img/c--4.svg" alt="C# logo"><p class="o-skill-percentage">55%</p></div></div>
+            <div class="c-skillslider__skill" title="MySql"><div class="o-skill__content"><img class="o-skill-image" src="img/mysql.svg" alt="MySQL logo"><p class="o-skill-percentage">65%</p></div></div>
         </div>
     </div>
     <div class="o-container">

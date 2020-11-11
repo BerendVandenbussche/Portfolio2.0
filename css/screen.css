@@ -269,6 +269,14 @@ a:focus {
   text-decoration: none;
 }
 
+.o-mobile-menu-item {
+  padding: 24px;
+}
+
+.o-nav-item__link:nth-child(odd) .o-mobile-menu-item {
+  background-color: var(--color-dark);
+}
+
 .o-container-main {
   display: flex;
   flex-direction: column;
@@ -552,13 +560,17 @@ a:focus {
 }
 
 .c-navigation__desktop {
-  visibility: hidden;
+  display: none;
 }
 
 .c-navigation__desktop ul li {
   list-style: none;
   display: inline;
   margin-left: 24px;
+}
+
+#mobile-menu {
+  display: none;
 }
 
 .c-dark-x {
