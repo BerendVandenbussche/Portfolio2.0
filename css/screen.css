@@ -299,14 +299,13 @@ a:focus {
   text-align: center;
 }
 
-.o-project {
+.o-project-pic {
   margin-top: 24px;
-  width: 100%;
   height: 120px;
   border-radius: 20px;
 }
 
-.o-project__title {
+.o-project-pic__title {
   background-color: var(--color-dark);
   width: auto;
   padding: 10px;
@@ -323,6 +322,10 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.o-project-description {
+  display: none;
 }
 
 /*
@@ -621,6 +624,10 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.c-project-container{
+  width: 100%;
 }
 
 .c-fridge {
@@ -1003,6 +1010,44 @@ a:focus {
     justify-content: center;
     align-items: center;
   }
+
+  .u-flex {
+    display: flex;
+  }
+
+  .c-skillslider {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: unset;
+    width: auto;
+    height: none;
+  }
+
+  .c-skillslider__skill {
+    margin-bottom: 24px;
+  }
+
+  .c-projects {
+    display: flex;
+  }
+
+  .o-project-pic {
+    width: 300px;
+  }
+
+  .c-project-container {
+    display: flex;
+  }
+
+  .o-project-pic__title {
+    display: none;
+  }
+
+  .o-project-description {
+    display: block;
+    margin-left: 48px;
+    margin-top: 15px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -1019,7 +1064,7 @@ a:focus {
   }
 }
 
-@media (prefers-color-scheme: light){
+@media (prefers-color-scheme: light) {
   :root {
     --color-dark: var(--color-light);
     --color-dark-x: var(--color-light-x);
