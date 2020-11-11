@@ -748,6 +748,10 @@ a:focus {
   height: auto;
 }
 
+.u-menu-color {
+  stroke: var(--text-color);
+}
+
 /*
     Utilities: max-width
     ---
@@ -1009,7 +1013,7 @@ a:focus {
   }
 
   .c-navigation__desktop {
-    visibility: visible;
+    display: flex;
   }
 
   .o-container-main {
