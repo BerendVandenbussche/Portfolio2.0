@@ -265,6 +265,10 @@ a:focus {
   margin-right: 24px;
 }
 
+.o-container::-webkit-scrollbar {
+  display: none;
+}
+
 .o-nav-item__link {
   text-decoration: none;
 }
@@ -654,6 +658,7 @@ a:focus {
 
 .c-project-container {
   width: 100%;
+  cursor: pointer;
 }
 
 .c-fridge {
@@ -672,6 +677,13 @@ a:focus {
   background-image: url('../img/Mockup.png');
   background-position: 50% 10%;
   background-size: cover;
+}
+
+.c-northway {
+  background-image: url('../img/Northway.png');
+  background-position: 50% 23%;
+  background-size: fit;
+  background-size: 350px;
 }
 
 .c-gate {
@@ -704,6 +716,12 @@ a:focus {
   background-image: url('../img/blob-2.svg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.u-scroll {
+  overflow-y: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /*
@@ -744,7 +762,7 @@ a:focus {
   padding: 24px 0 0 0 !important;
 }
 
-.u-height-auto {
+.u-height-screen {
   height: auto;
 }
 
@@ -1024,11 +1042,16 @@ a:focus {
     background-image: none;
   }
 
+  .u-height-screen {
+    height: 100vh;
+  }
+
   .o-container {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
     max-width: 90em; /* 90 * 16px = 1440px */
+    overflow-x: none;
   }
 
   .c-hello {
