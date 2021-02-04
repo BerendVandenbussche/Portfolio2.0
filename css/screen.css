@@ -687,7 +687,10 @@ a:focus {
 }
 
 .c-gate {
-  background-color: var(--color-dark);
+  background-image: url('../img/SmartGarage.png');
+  background-position: 52% 31%;
+  background-size: fit;
+  background-size: 850px;
 }
 
 .c-seperator {
