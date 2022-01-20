@@ -64,6 +64,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
   background-color: var(--color-dark);
+  scroll-behavior: smooth;
 }
 
 *,
@@ -573,6 +574,10 @@ a:focus {
   margin-left: 24px;
 }
 
+.c-navigation__list {
+  cursor: pointer;
+}
+
 #mobile-menu {
   display: none;
 }
@@ -637,6 +642,14 @@ a:focus {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
   height: 140px;
+}
+
+.c-skillslider__link {
+  text-decoration: none;
+}
+
+.c-skillslider__link:hover {
+  color: white;
 }
 
 .c-skillslider::-webkit-scrollbar {
