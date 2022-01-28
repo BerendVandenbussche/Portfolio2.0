@@ -1078,6 +1078,11 @@ a:focus {
 
   .c-hello__image {
     height: 50%;
+    transition: all 1s ease;
+  }
+
+  .c-hello__image:hover {
+    transform: scale(1.2);
   }
 
   .c-intro {
