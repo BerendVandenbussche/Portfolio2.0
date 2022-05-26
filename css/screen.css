@@ -328,6 +328,7 @@ a:focus {
   padding: 10px;
   border-radius: 20px 20px 0 0;
   opacity: 0.85;
+  margin: 0;
 }
 
 .o-social {
@@ -672,6 +673,31 @@ a:focus {
 .c-project-container {
   width: 100%;
   cursor: pointer;
+}
+
+.c-weather {
+  background-image: url('../img/weatherstation.jpeg');
+  background-position: 50% 61%;
+  background-size: cover;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.c-weather-title {
+  display: flex;
+  width: min-content;
+  margin: 0;
+  display: none;
+}
+
+.c-weather-info {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.js-temp {
+  margin: 0;
 }
 
 .c-fridge {
@@ -1091,6 +1117,23 @@ a:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .c-weather {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+
+  .c-weather-title {
+    display: flex;
+    width: 100%;
+  }
+
+  .c-weather-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 
   .u-flex {
