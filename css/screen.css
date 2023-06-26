@@ -677,7 +677,7 @@ a:focus {
 
 .c-weather {
   background-image: url('../img/weatherstation.jpeg');
-  background-position: 50% 61%;
+  background-position: 50% 45%;
   background-size: cover;
   justify-content: flex-end;
   align-items: flex-end;
